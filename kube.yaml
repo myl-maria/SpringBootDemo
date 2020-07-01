@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: maven
-          image: 192.168.3.2020:5000/maven:latest
+          image: 192.168.3.202:5000/maven:latest
           ports:
           - containerPort: 8080
           env:
